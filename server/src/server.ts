@@ -18,7 +18,7 @@ app.use(morgan("dev"));
 
 // API routes
 app.get("/", (req, res) => {
-  res.status(200).json({ message: "API is Working" });
+  res.status(200).json({ message: "API Working" });
 });
 
 // Start Server
